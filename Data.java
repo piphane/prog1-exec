@@ -26,4 +26,8 @@ class Data {
     public void setAno (int ano) {
         this.ano = ano;
     }   
+
+    public String getFormated () {
+        return this.dia + "/" + this.mes + "/" + this.ano;
+    }
 }
